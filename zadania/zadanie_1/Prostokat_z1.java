@@ -1,7 +1,7 @@
-public class Prostokat1 extends Figura1 {
+public class Prostokat_z1 extends Figura_z1 {
     private int szerokosc, wysokosc;
 
-    public Prostokat1(int szerokosc, int wysokosc) {
+    public Prostokat_z1(int szerokosc, int wysokosc) {
         this.szerokosc = szerokosc;
         this.wysokosc = wysokosc;
     }

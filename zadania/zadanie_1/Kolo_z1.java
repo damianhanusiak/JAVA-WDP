@@ -1,7 +1,7 @@
-public class Kolo1 extends Figura1 {
+public class Kolo_z1 extends Figura_z1 {
     private int promien;
 
-    public Kolo1(int promien) {
+    public Kolo_z1(int promien) {
         this.promien = promien;
     }
 
