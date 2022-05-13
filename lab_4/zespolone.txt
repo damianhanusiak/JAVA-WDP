@@ -1,0 +1,4 @@
+Liczba zespolona: 1 + 2i, Modul: 2.23606797749979
+Liczba zespolona: 3 + 4i, Modul: 5.0
+Liczba zespolona: 5 + 6i, Modul: 7.810249675906654
+Liczba zespolona: 7 + 8i, Modul: 10.63014581273465
