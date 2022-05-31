@@ -12,11 +12,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class OknoGlowne extends JFrame implements Runnable, ActionListener {
+    // rozmiary okna
     private final int w = 400, h = 250;
+    // przyciski
     private JButton b1, b2;
     private JComboBox<Operation> cbOperacje;
     private Operation[] operacje = new Operation[2];
+    // okienka do wpisywania wartości
     private JTextField f1, f2;
+    // pole tekstowe do wypisywania wyniku
     private JLabel label;
 
     public OknoGlowne(String title) {
@@ -24,12 +28,12 @@ public class OknoGlowne extends JFrame implements Runnable, ActionListener {
         super(title);
         // rozmiar okna
         setSize(w, h);
-        // stworzenie panelu
+        // stworzenie panelu, przyciski wtedy nie nachodzą na siebie
         setContentPane(new JPanel());
         // pobranie rozmiarów okna
         Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
         // rozmieszczenie okna na ekranie
-        setLocation((size.width) / 2, (size.height) / 2);
+        setLocation(((size.width) / 2) - 200, ((size.height) / 2) - 125);
         // przycisk 1
         b1 = new JButton("Przycisk 1");
         add(b1);
